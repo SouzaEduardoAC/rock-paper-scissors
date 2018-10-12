@@ -1,0 +1,10 @@
+.vscode
+
+src/RockPaperScissors/bin
+src/RockPaperScissors/obj
+src/RockPaperScissors/.vscode
+
+tests/RockPaperScissorsTest/.vscode
+tests/RockPaperScissorsTest/bin
+tests/RockPaperScissorsTest/obj
+
