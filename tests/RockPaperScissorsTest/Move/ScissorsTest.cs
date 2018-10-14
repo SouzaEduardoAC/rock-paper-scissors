@@ -15,21 +15,21 @@ namespace RockPaperScissorsTest.Move
         public void Scissors_Wins_Agains_Scissors()
         {
             var scissors = new Scissors();
-            Assert.Equal(true, scissors.WinAgainst(new Scissors()));
+            Assert.True(scissors.WinAgainst(new Scissors()));
         }
         
         [Fact]
         public void Scissors_Wins_Against_Paper()
         {
             var scissors = new Scissors();
-            Assert.Equal(true, scissors.WinAgainst(new Paper()));
+            Assert.True(scissors.WinAgainst(new Paper()));
         }
 
         [Fact]
         public void Scissors_Loses_Agains_Rock()
         {
             var scissors = new Scissors();
-            Assert.Equal(false, scissors.WinAgainst(new Rock()));
+            Assert.False(scissors.WinAgainst(new Rock()));
         }
     }
 }
